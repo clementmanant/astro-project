@@ -1,11 +1,11 @@
-import Navbar from './components/Navbar/Navbar'
+import { RouterProvider } from 'react-router-dom'
+import router from './BrowserRouter'
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <h1>Astronomie</h1>
+      <RouterProvider router={router}/>
     </>
   )
 }

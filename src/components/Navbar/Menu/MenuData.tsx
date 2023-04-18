@@ -1,18 +1,18 @@
 export const menuData = [
     {
         label: "Accueil",
-        url: "https://www.google.com/?client=safari&channel=mac_bm"
+        url: "/"
     },
     {
         label: "Étoiles",
-        url: "https://www.google.com/?client=safari&channel=mac_bm"
+        url: "/users"
     },
     {
         label: "Planètes",
         url: "https://www.google.com/?client=safari&channel=mac_bm"
     },
     {
-        label: "Shopping",
+        label: "Boutique",
         url: "https://www.google.com/?client=safari&channel=mac_bm"
     },
     {

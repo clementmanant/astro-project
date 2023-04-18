@@ -1,6 +1,7 @@
 import { useState } from "react"
 import styles from "./Menu.module.css"
 import { menuData } from "./MenuData"
+import { Link } from "react-router-dom";
 
 const Menu = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -11,7 +12,7 @@ const Menu = () => {
                 <ul className={styles.items}>
                     {menuData.map(item => (
                         <li className={styles.list} key={item.label}>
-                            <a className={styles.link} href={item.url}>{item.label}</a>
+                            <Link className={styles.link} to={item.url} onClick={() => setOpenMenu(!openMenu)}>{item.label}</Link>
                         </li>
                     ))}
                 </ul>
