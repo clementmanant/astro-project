@@ -8,20 +8,24 @@
     cursor: pointer;
 }
 
-.navShow {
-    right: 0;
+.navHide {
+    width: 20vw;
+    position: absolute;
+    left: 10vw;
+    top: 45px;
 }
 
 .items {
     padding: 0;
     margin: 0;
+}
+
+.navShow {
     width: 20vw;
-    box-shadow: 1px 1px  #054569;
     position: absolute;
-    top: 0;
+    top: 45px;
     z-index: 999;
-    background-color: #ffffff;
-    right: -25vw;
+    left: -16vw;
 }
 
 .list {
@@ -34,4 +38,6 @@
     padding: 10px 16px;
     display: flex;
     border-bottom: 1px solid #054569;
+    border-left: 1px solid #054569;
+    font-weight: bold;
 }

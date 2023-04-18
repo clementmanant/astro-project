@@ -1,6 +1,6 @@
 .navbar {
     height: 70px;
-    background: #CED7E0;
+    background: #ced7e0;
     border-bottom: 1px solid;
     display: flex;
     align-items: center;
@@ -16,4 +16,9 @@ img {
 
 .logo {
     cursor: pointer;
+}
+
+.title {
+    color: #062c43;
+    font-size: 300%;
 }

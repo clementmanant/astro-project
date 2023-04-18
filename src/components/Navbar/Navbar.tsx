@@ -10,6 +10,7 @@ const Navbar = () => {
                     <img src={planete} alt="Accueil" />
                 </a>
             </div>
+            <div className={styles.title}>AstroProject</div>
             <Menu />
         </nav>
     )
