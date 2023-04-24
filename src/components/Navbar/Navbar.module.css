@@ -1,6 +1,6 @@
 .navbar {
     height: 70px;
-    background: #ced7e0;
+    background: #d6e0ea;
     border-bottom: 1px solid;
     display: flex;
     align-items: center;
@@ -8,10 +8,11 @@
     padding: 0 2% 0 2%;
 }
 
-img {
+.img {
     max-width: auto;
     max-height: 50px;
     display: block;
+    color: #062c43;
 }
 
 .logo {

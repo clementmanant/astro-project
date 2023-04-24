@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import News from "./components/News/News";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Layout from "./Layout";
+import Stars from "./components/Stars/Stars";
+import Article from "./components/News/Article/Article";
 
 const router = createBrowserRouter(
     [
@@ -15,8 +17,12 @@ const router = createBrowserRouter(
                     element: <News />
                 },
                 {
-                    path: "/users",
-                    element: <ErrorPage />
+                    path: "/:id",
+                    element: <Article />
+                },
+                {
+                    path: "/stars",
+                    element: <Stars />
                 },
                 {
                     path: "/users/:userId",

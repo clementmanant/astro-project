@@ -5,18 +5,18 @@ export const menuData = [
     },
     {
         label: "Étoiles",
-        url: "/users"
+        url: "/stars"
     },
     {
         label: "Planètes",
-        url: "https://www.google.com/?client=safari&channel=mac_bm"
+        url: "/planets"
     },
     {
         label: "Boutique",
-        url: "https://www.google.com/?client=safari&channel=mac_bm"
+        url: "/shop"
     },
     {
         label: "Discussion",
-        url: "https://www.google.com/?client=safari&channel=mac_bm"
+        url: "/talk"
     },
 ]

@@ -1,8 +1,8 @@
 import styles from "./ErrorPage.module.css"
 import { isRouteErrorResponse, useRouteError } from "react-router-dom";
 
-const ErrorPage = () => {
-    const error = useRouteError();
+const ErrorPage = (props: { message: string; }) => {
+  const error = useRouteError();
   if (isRouteErrorResponse(error)) {
     return (
       <div className={styles.errorPage}>
@@ -13,8 +13,13 @@ const ErrorPage = () => {
       </div>
     );
   } else {
-    return <div>Oops</div>;
+    const {message} = props;
+    return <div>{message}</div>;
   }
 }
+
+ErrorPage.defaultProps = {
+  message: "test"
+};
 
 export default ErrorPage
