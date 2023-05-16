@@ -1,0 +1,7 @@
+.test:hover {
+    fill: red; stroke: blue; stroke-width: 3
+}
+
+.selected {
+    fill: green; stroke: blue; stroke-width: 3
+}

@@ -1,10 +1,12 @@
-import styles from "./Stars.module.css"
+import styles from "./Stars.module.css";
+import Map from "./Map/Map";
 
 const Stars = () => {
     return (
-        
-        <div>
-            Stars
+        <div className={styles.container}>
+            <div>
+                <Map />
+            </div>
         </div>
     )
 }
