@@ -7,12 +7,4 @@ export const menuData = [
         label: "Étoiles",
         url: "/stars"
     },
-    // {
-    //     label: "Boutique",
-    //     url: "/shop"
-    // },
-    // {
-    //     label: "Discussion",
-    //     url: "/talk"
-    // },
 ]

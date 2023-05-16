@@ -24,14 +24,6 @@ const router = createBrowserRouter(
                     path: "/stars",
                     element: <Stars />
                 },
-                {
-                    path: "/users/:userId",
-                    //element: <UserPage />
-                }, 
-                {
-                    path: "/counter",
-                    //element: <Counter />
-                }
             ]
         }
     ]

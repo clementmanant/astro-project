@@ -19,7 +19,7 @@ const ErrorPage = (props: { message: string; }) => {
 }
 
 ErrorPage.defaultProps = {
-  message: "test"
+  message: "Cette page n'existe pas."
 };
 
 export default ErrorPage
